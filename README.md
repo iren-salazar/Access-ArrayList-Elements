@@ -1,5 +1,5 @@
 # Access-ArrayList-Elements
-simply names and foods to select with using ArrayList[elements]
+simply birthday letter to select with using ArrayList -accessing the elements in ArrayList
 
 package personal;
 
@@ -11,25 +11,38 @@ public class JavaUtilArrayList {
 		//create ArrayList
 		ArrayList <String> names = new ArrayList <>();
 		ArrayList <String> foods = new ArrayList <>();
+		ArrayList <String> work = new ArrayList <>();
 		
 		//ArrayList
 		names.add("Elliot");
-		names.add("Emmanuel");
 		names.add("Cordelia");
 		names.add("Kamaji");
 		
 		foods.add("Pizza");
 		foods.add("Pineapple");
-		foods.add("Calderita");
 		foods.add("Adobong manok");
 		
+		work.add("Cook");
+		work.add("Nutritionist");
+		work.add("Pro Chief");
+
+		
 		//Store elements in ArrayList
-		String favefood = foods.get(3);
-		String character = names.get(3);
+		String favefood = foods.get(2);
+		String character = names.get(2);
+		String jobs = work.get(0);
+		String sender = names.get(0);
 		//print ArrayList
-		System.out.println("Come here " + character + " let's eat " + favefood + "!");
+		System.out.println("\"Birthday Message\"");
+		System.out.println("\rHello " + character + " happy birthday to you! " + 
+		"\rThanks for the " + favefood + "!" + " It was so delicious..." + " You are always been a good " +
+		jobs + "\rI wish you all the best in life can give and I hope to see you soon.\r" +
+		"\rYour loyal friend,\r" + sender );
 	}
 }
+
+
+
 
 
 
