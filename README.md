@@ -1,5 +1,5 @@
 # Access-ArrayList-Elements
-simply birthday letter to select with using ArrayList -accessing the elements in ArrayList
+simply birthday letter to select with using ArrayList -accessing the elements in ArrayList using the get() method
 
 package personal;
 
